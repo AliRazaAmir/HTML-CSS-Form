@@ -1,0 +1,51 @@
+form {
+  width: 30rem;
+  background-color: rgb(255, 255, 255);
+  margin: 5rem auto;
+  padding: 2rem;
+  border-radius: 6px;
+}
+.control-radio label {
+  margin: 0;
+}
+
+input,
+select {
+  display: block;
+  width: 100%;
+  height: 2rem;
+  padding: 0.5rem;
+  color: black;
+}
+textarea {
+  width: 100%;
+}
+
+textarea:focus,
+input:focus {
+  background-color: aquamarine;
+}
+label {
+  display: block;
+  margin-bottom: 1rem;
+  font-size: 1.2rem;
+  font-weight: 800;
+  color: black;
+}
+button {
+  margin-top: 2rem;
+  padding: 0.5rem;
+  background-color: rgba(0, 0, 255, 0.599);
+  border: 1px solid black;
+  cursor: pointer;
+  border-radius: 4px;
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+.control-radio {
+  display: flex;
+}
+.control-radio input {
+  width: auto;
+  margin-right: 0.5rem;
+}

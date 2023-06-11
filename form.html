@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form</title>
+    <link rel="stylesheet" href="Form.css" />
+
+    <style>
+      body {
+        /* width: 50rem; */
+        background-color: rgb(0, 0, 0);
+        /* margin: auto; */
+      }
+    </style>
+  </head>
+  <body>
+    <form action="">
+      <label> Your Name</label>
+      <input type="text" /><br />
+      <label> Your Email</label>
+      <input type="email" name="user-email" id="email" />
+      <br />
+      <label for="text-area"> Your Message</label>
+      <textarea name="" id="" cols="30" rows="10"></textarea>
+      <label> Phone No:</label>
+      <input type="number" name="user-number" id="number" />
+      <br />
+      <label> Phone No:</label>
+      <input type="number" step="1" name="user-number" id="number" />
+      <br />
+      <label>Password:</label>
+      <input
+        type="password"
+        name="user-password"
+        id="password"
+        required
+        minlength="5"
+      />
+      <br />
+      <label>DOB:</label>
+      <input type="date" name="user-dob" id="DOB" />
+      <br />
+      <hr />
+      <br />
+      <h3>How should we can verify your account?</h3>
+      <div class="control-radio">
+        <input
+          type="radio"
+          name="verify-account"
+          id="verify-account-massages"
+          value="text-message"
+        />
+        <label for="verify-account-message">Verify via massages</label>
+      </div>
+
+      <div class="control-radio">
+        <input
+          type="radio"
+          name="verify-account"
+          id="verify-account-email"
+          value="text-email"
+        />
+        <label for="verify-account-email">Verify via email</label>
+      </div>
+      <br />
+      <h3>How should we can verify your account?</h3>
+      <div class="control-radio">
+        <input type="checkbox" id="verify-account-massages" />
+        <label for="verify-account-massages">Verify via massages</label>
+      </div>
+      <div class="control-radio">
+        <input type="checkbox" id="verify-account-email" />
+        <label for="verify-account-email ">Verify via email</label>
+      </div>
+      <br />
+      <label for="">Select Your Favourite color? </label>
+      <select name="" id="">
+        <option value="">Red</option>
+        <option value="">Blue</option>
+        <option value="">Black</option>
+        <option value="">White</option>
+        <option value="">Orange</option>
+      </select>
+      <br />
+
+      <button>Submit</button>
+    </form>
+  </body>
+</html>
